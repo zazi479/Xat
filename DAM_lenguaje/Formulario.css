@@ -1,0 +1,102 @@
+/* Estilo general del formulario */
+body {
+    background-color: #000000;
+    color: #ffffff;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    background-image: url('fondo.jpeg');
+    background-size: 100% ;
+    background-repeat: no-repeat;
+     /* Mueve la imagen hacia abajo */
+}
+    
+h3 {
+    text-align: center;
+    color: #00e1ff;
+    font-size: 24px;
+}
+
+.formulario {
+    margin: 0 auto;
+    width: 300px;
+    
+}
+
+.create-account {
+    color: #00e1ff;/* Cambia el color a tu preferencia */
+    font-size: 22px; 
+
+    text-align: center;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    
+}/* Cambia el tamaño de letra a tu preferencia */
+
+
+#user,
+#mail,
+#pass1,
+#pass2,
+#countries {
+    color: #ff00ff; /* Cambia el color a tu preferencia */
+    font-size: 16px; /* Cambia el tamaño de letra a tu preferencia */
+}
+
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border:  1px solid #ff00ff;
+    border-radius: 5px;
+    background-color: #000000;
+    color: #ff00ff;
+
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+select:focus {
+    outline: none;
+}
+
+select{
+    width: 107%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ff00ff;
+    border-radius: 5px;
+    background-color: #000000;
+    color: #ff00ff;
+}
+
+label {
+    color: #00ffff;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+button {
+    width: 80%;
+    
+    padding: 10px;
+    margin-bottom: 15px;
+    margin-left:35px;
+    border: 1px solid #ff00ff;
+    border-radius: 5px;
+    background-color: #000000;
+    color: #00ffff;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #00e1ff;
+    color: #000000;
+}
+
+
+

@@ -1,0 +1,103 @@
+/* CSS_Login.css */
+
+/* Estilos generales */
+body {
+    background-color: #000000;
+    color: #ffffff;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    text-align: center;
+    background-image: url('estrellas.jpeg');
+    background-size: 100% ;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+    
+
+
+h1 {
+    background-image: url('start.gif');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 200px; /* Ajusta la altura según tus necesidades */
+    width: 1500px; 
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 250px;
+    height: 40px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ff00ff;
+    outline: none;
+    background-color:#000000 ;
+    color: #ffffff;
+    font-family:Arial, sans-serif;
+}
+
+button {
+    width: 150px;
+    height: 40px;
+    background-color: #000000;
+    color: #ffffff;
+    border: 1px solid #ff00ff;
+    border-radius: 5px;
+    font-family:Arial, sans-serif;
+    cursor: pointer;
+}
+
+
+button:hover{
+    background-color: #07caec;
+    color: #ffffff;
+
+}
+
+#gif-container {
+    position: relative;
+    background-color: transparent;
+    overflow: hidden;
+}
+#moving-gif {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 10%;
+    object-fit: cover;
+    animation: moveGif 10s linear infinite;
+}
+
+@keyframes moveGif {
+    0% {
+        transform: translateX(-80%);
+    }
+    50% {
+        transform: translateX(420%);
+    }
+    100% {
+        transform: translateX(-80%);
+    }
+}
+
+
+
+
+a:visited {
+    color: #ff00ff;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #00e1ff;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: #fff;
+    background-color: transparent;
+    text-decoration: underline;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0  maximum-scale=1">
+    <link rel="stylesheet" href="xat.css">
+    <script src="formulario.js"></script>
+    <title>Chat</title>
+</head>
+<header>
+    <div id="main_div">
+        <div id="formulario">
+            <h2>XatVerse</h2>
+        </div>
+        <label for="friendMail">Añadir un amigo:</label>
+        <input type="text" name="friendMail" id="friendMail">
+        <button onclick="añadirAmigo()" id="button_login">Añadir amigo</button>
+    </div>
+</header>
+
+<body id="body-chat" onload="obtenerListaAmigos()">
+
+    <div id="chat">
+        <div class="chat-column">
+            <p>
+                <select name="friendList" id="friendList" onchange="modificarDestinatario(); iniciarConversacion()">
+
+                </select>
+            </p>
+
+            <h3>Enviar mensajes</h3>
+            <div id="sendMessage">
+                <label for="sms">Mensaje:</label>
+                <input type="text" id="sms" required>
+                <button type="button" onclick="enviarMensaje()">Enviar</button>
+            </div>
+        </div>
+
+            <div class="chat-column">
+                <div id="Mensajes">
+
+                </div>
+            </div>
+    </div>
+    
+</body>
+
+<footer>
+    <button onclick="logout()">Cerrar sesión</button>
+</footer>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Formulario.css">
+    <script src="formulario.js"></script>
+    <title>Formulario</title>
+</head>
+<body onload="obtenerPaises()">
+    <h3>Formulario de registro</h3>
+
+
+<div>
+    <div class="formulario">
+        <h2 class="create-account">Crear nueva cuenta</h2>
+        <input type="text" placeholder="Nombre" id="user">
+
+
+        <input type="email" placeholder="Mail" id="mail">
+
+
+        <input type="password" placeholder="Contraseña" id="pass1">
+        <input type="password" placeholder="Contraseña" id="pass2">
+        <label for="pais">Pais:</label>
+        <select name="countries" id="countries">
+            
+        </select>
+
+        <button onclick="verificarContrasena()" value="Registrarse" id="registrar">Registrarse</button>
+    
+
+
+    </div>
+</div>
+
+</body>
+
+</html>
