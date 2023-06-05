@@ -9,3 +9,7 @@ El objetivo de este proyecto es simular un chat.Debemos lograr crear los siguien
 - Recibir lista de amigos.
 - Enviar mensaje.
 - Recibir mensaje.
+
+
+# Instrucciones:
+
