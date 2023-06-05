@@ -20,6 +20,7 @@ En la carpeta de "DAM_lenguaje" estan todos los aarchivos de HTML,CSS y JavaScri
 - El archivo xat.html es la pagina en donde iniciamos nuestras conversaciones y podemos añadir amigoa,tiene vinculo con el archivo.xat.css y las funciones javascript   que utilizan estan en el archivo formulario.js.
 
 En la carpeta de "XatLLM" estan todos los archivos del bakend proporcionados por nuestro profesor. 
-
+He adjuntado el archivo que contiene la base de datos (xat.sql).
+Además he añadido videos para que se vea el funcionamiento de las páginas webs.
 
 
